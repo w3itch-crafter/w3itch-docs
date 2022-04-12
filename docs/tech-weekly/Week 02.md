@@ -21,5 +21,5 @@ We believe that scoring, tagging, and commenting may be completely different und
 
 ## Next
 
-1. Finish Unsiswap Intergartion
+1. Finish Uniswap Intergration
 2. Game Pricing
