@@ -12,7 +12,7 @@ We believe that scoring, tagging, and commenting may be completely different und
 3. Add Tag Intergation，including "Create new project" form & "Browse Game"
 4. Add Rating API & Page
 5. Finish Disqus Intergration
-6. Start Unsiswap Intergartion
+6. Start Uniswap Intergration
 7. Fix pagination problem
 8. Fix database migration problem
 9. Discuss whether ENS can be applied
