@@ -1,0 +1,23 @@
+{
+  "name": "w3itch-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:w3itch-crafter/w3itch-docs.git",
+  "author": "Witch Crafter <team@w3itch.io>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-nprogress": "next",
+    "@vuepress/plugin-search": "next",
+    "@vuepress/plugin-shiki": "next",
+    "@vuepress/plugin-toc": "next",
+    "vuepress": "next"
+  },
+  "dependencies": {
+    "markdown-it-task-lists": "^2.1.1"
+  },
+  "packageManager": "yarn@3.2.0"
+}

@@ -1,0 +1,17 @@
+# nodejs
+node_modules
+npm-debug.log
+dist
+
+# vuepress
+.temp
+.cache
+
+# yarn
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
