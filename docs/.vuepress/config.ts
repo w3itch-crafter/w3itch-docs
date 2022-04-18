@@ -40,6 +40,7 @@ export default defineUserConfig<DefaultThemeOptions>({
               link: "/CONTRIBUTING.md",
             },
             "/thanks.md",
+            "/support.md",
           ],
         },
       ],
