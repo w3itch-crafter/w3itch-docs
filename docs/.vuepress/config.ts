@@ -22,6 +22,10 @@ export default defineUserConfig<DefaultThemeOptions>({
         link: "/tech-weekly/",
       },
       {
+        text: "Contributing",
+        link: "/CONTRIBUTING.md",
+      },
+      {
         text: "GitHub",
         link: "https://github.com/w3itch-crafter",
       },
@@ -32,20 +36,12 @@ export default defineUserConfig<DefaultThemeOptions>({
           text: "Guide",
           collapsible: true,
           link: "/README.md",
-          children: [
-            "/README.md",
-            "/faq.md",
-            {
-              text: "Contributing",
-              link: "/CONTRIBUTING.md",
-            },
-            "/thanks.md",
-            "/support.md",
-          ],
+          children: ["/README.md", "/faq.md", "/thanks.md", "/support.md"],
         },
       ],
 
       "/tech-weekly/": getSidebar(path.join(__dirname, "..", "/tech-weekly")),
+      "/CONTRIBUTING.html": [],
     },
     logo: "https://storageapi2.fleek.co/7f744516-e377-496b-9ab1-4429f50e6a43-bucket/w3itch-logo-2.jpg",
   },
