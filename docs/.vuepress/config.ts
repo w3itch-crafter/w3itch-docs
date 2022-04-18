@@ -3,6 +3,14 @@ import { defineUserConfig } from "@vuepress/cli";
 import type { DefaultThemeOptions } from "@vuepress/theme-default";
 import * as path from "path";
 
+const contributingSidebar = [
+  {
+    text: "Contributing",
+    collapsible: true,
+    link: "/CONTRIBUTING.md",
+    children: ["/CODE_OF_CONDUCT.md"],
+  },
+];
 export default defineUserConfig<DefaultThemeOptions>({
   lang: "en-US",
   title: "W3itch",
@@ -41,7 +49,8 @@ export default defineUserConfig<DefaultThemeOptions>({
       ],
 
       "/tech-weekly/": getSidebar(path.join(__dirname, "..", "/tech-weekly")),
-      "/CONTRIBUTING.html": [],
+      "/CONTRIBUTING.html": contributingSidebar,
+      "/CODE_OF_CONDUCT.html": contributingSidebar,
     },
     logo: "https://storageapi2.fleek.co/7f744516-e377-496b-9ab1-4429f50e6a43-bucket/w3itch-logo-2.jpg",
   },
