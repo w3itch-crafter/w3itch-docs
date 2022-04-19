@@ -1,10 +1,10 @@
 ---
 tags: Contributing
 ---
+
 # Welcome to W3itch contributing guide
 
 [![hackmd-github-sync-badge](https://hackmd.io/6ebq7ZrRSn21fqk8f4DJkg/badge)](https://hackmd.io/6ebq7ZrRSn21fqk8f4DJkg)
-
 
 :+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
 
@@ -32,7 +32,6 @@ We use [vercel](https://vercel.com) to build and deploy frontend.
 
 You can click "view deloyment" and check if issues labeled "testing" are fixed in the latest version.
 
-
 ### Collaborate on HackMD
 
 - [Home](https://hackmd.io/@w3itch-crafter)
@@ -46,8 +45,8 @@ See [Support](./support.md)
 
 Unsure where to begin contributing to W3itch? You can start by looking through these `good first issue` and `help wanted` issues:
 
-* [Good First issue](https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aw3itch-crafter++sort%3Acomments-desc++label%3A%22good+first+issue%22) - issues which should only require a few lines of code, and a test or two.
-* [Help wanted issue](https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aw3itch-crafter++sort%3Acomments-desc++label%3A%22help+wanted%22) - issues which should be a bit more involved than `good first issue` issues.
+- [Good First issue](https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aw3itch-crafter++sort%3Acomments-desc++label%3A%22good+first+issue%22) - issues which should only require a few lines of code, and a test or two.
+- [Help wanted issue](https://github.com/search?q=is%3Aopen+is%3Aissue+user%3Aw3itch-crafter++sort%3Acomments-desc++label%3A%22help+wanted%22) - issues which should be a bit more involved than `good first issue` issues.
 
 Both issue lists are sorted by total number of comments. While not perfect, number of comments is a reasonable proxy for impact a given change will have.
 
@@ -62,9 +61,9 @@ The process described here has several goals:
 
 Please follow these steps to have your contribution considered by the maintainers:
 
-1. Follow all instructions in [the template](PULL_REQUEST_TEMPLATE.md)
+1. Follow instructions in [the template](./PULL_REQUEST_TEMPLATE.md)
 2. Follow the [styleguides](#Styleguides)
-3. After you submit your pull request, verify that all [status checks](https://help.github.com/articles/about-status-checks/) are passing 
+3. After you submit your pull request, verify that all [status checks](https://help.github.com/articles/about-status-checks/) are passing
 
 <details>
     <summary>
@@ -76,13 +75,14 @@ Please follow these steps to have your contribution considered by the maintainer
 While the prerequisites above must be satisfied prior to having your pull request reviewed, the reviewer(s) may ask you to complete additional design work, tests, or other changes before your pull request can be ultimately accepted.
 
 ### Repos
+
 - [w3itch-frontend](https://github.com/w3itch-crafter/w3itch-frontend/pulls)
   - [fork](https://github.com/w3itch-crafter/w3itch-frontend/fork)
-- [w3itch-backend](https://github.com/w3itch-crafter/w3itch-backend/pulls) 
+- [w3itch-backend](https://github.com/w3itch-crafter/w3itch-backend/pulls)
   - [fork](https://github.com/w3itch-crafter/w3itch-backend/fork)
 
 Both repos can be forked and developed locally.
-If you are not sure how to get started，see `README.md` in each repo. 
+If you are not sure how to get started，see `README.md` in each repo.
 
 [Next.js](https://nextjs.org/) + [NestJS](https://nestjs.com/)
 

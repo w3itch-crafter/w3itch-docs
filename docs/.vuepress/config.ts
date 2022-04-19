@@ -8,7 +8,7 @@ const contributingSidebar = [
     text: "Contributing",
     collapsible: true,
     link: "/CONTRIBUTING.md",
-    children: ["/CODE_OF_CONDUCT.md"],
+    children: ["/CODE_OF_CONDUCT.md", "/PULL_REQUEST_TEMPLATE.md"],
   },
 ];
 export default defineUserConfig<DefaultThemeOptions>({
@@ -51,6 +51,7 @@ export default defineUserConfig<DefaultThemeOptions>({
       "/tech-weekly/": getSidebar(path.join(__dirname, "..", "/tech-weekly")),
       "/CONTRIBUTING.html": contributingSidebar,
       "/CODE_OF_CONDUCT.html": contributingSidebar,
+      "/PULL_REQUEST_TEMPLATE.html": contributingSidebar,
     },
     logo: "https://storageapi2.fleek.co/7f744516-e377-496b-9ab1-4429f50e6a43-bucket/w3itch-logo-2.jpg",
   },
