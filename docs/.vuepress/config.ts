@@ -18,6 +18,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     "A Next-Generation Open Free Market for Independent Digital Creators",
   head: [
     ["link", { rel: "manifest", href: "/manifest.webmanifest" }],
+    ["link", { rel: "pgpkey authn", href: "/key.txt" }],
     ["meta", { name: "referrer", content: "no-referrer" }],
   ],
   // theme and its config
