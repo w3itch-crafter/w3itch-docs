@@ -19,6 +19,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   head: [
     ["link", { rel: "manifest", href: "/manifest.webmanifest" }],
     ["link", { rel: "me", href: "https://twitter.com/w3itchio" }],
+    ["link", { rel: "me", href: "https://github.com/w3itch" }],
     ["link", { rel: "pgpkey", href: "/key.txt" }],
     ["meta", { name: "referrer", content: "no-referrer" }],
   ],
