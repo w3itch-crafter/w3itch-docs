@@ -18,7 +18,8 @@ export default defineUserConfig<DefaultThemeOptions>({
     "A Next-Generation Open Free Market for Independent Digital Creators",
   head: [
     ["link", { rel: "manifest", href: "/manifest.webmanifest" }],
-    ["link", { rel: "pgpkey authn", href: "/key.txt" }],
+    ["link", { rel: "me", href: "https://twitter.com/w3itchio" }],
+    ["link", { rel: "pgpkey", href: "/key.txt" }],
     ["meta", { name: "referrer", content: "no-referrer" }],
   ],
   // theme and its config
