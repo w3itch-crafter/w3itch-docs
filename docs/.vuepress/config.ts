@@ -16,7 +16,10 @@ export default defineUserConfig<DefaultThemeOptions>({
   title: "W3itch",
   description:
     "A Next-Generation Open Free Market for Independent Digital Creators",
-  head: [["meta", { name: "referrer", content: "no-referrer" }]],
+  head: [
+    ["link", { rel: "manifest", href: "/manifest.webmanifest" }],
+    ["meta", { name: "referrer", content: "no-referrer" }],
+  ],
   // theme and its config
   theme: "@vuepress/theme-default",
   themeConfig: {
@@ -53,7 +56,6 @@ export default defineUserConfig<DefaultThemeOptions>({
       "/CODE_OF_CONDUCT.html": contributingSidebar,
       "/PULL_REQUEST_TEMPLATE.html": contributingSidebar,
     },
-    logo: "https://storageapi2.fleek.co/7f744516-e377-496b-9ab1-4429f50e6a43-bucket/w3itch-logo-2.jpg",
   },
   markdown: {
     toc: {
@@ -64,4 +66,23 @@ export default defineUserConfig<DefaultThemeOptions>({
     // use more markdown-it plugins!
     md.use(require("markdown-it-task-lists"));
   },
+  plugins: [
+    [
+      "@vuepress/pwa",
+      {
+        skipWaiting: true,
+      },
+    ],
+    [
+      "@vuepress/plugin-pwa-popup",
+      {
+        locales: {
+          "/": {
+            message: "New content is available.",
+            buttonText: "Refresh",
+          },
+        },
+      },
+    ],
+  ],
 });
