@@ -18,6 +18,11 @@ export default defineUserConfig<DefaultThemeOptions>({
     "A Next-Generation Open Free Market for Independent Digital Creators",
   head: [
     ["link", { rel: "manifest", href: "/manifest.webmanifest" }],
+    [
+      "link",
+      { rel: "authorization_endpoint", href: "https://indielogin.com/auth" },
+    ],
+
     ["link", { rel: "me", href: "https://twitter.com/w3itchio" }],
     ["link", { rel: "me", href: "https://github.com/w3itch" }],
     ["link", { rel: "pgpkey", href: "/key.txt" }],
