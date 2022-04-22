@@ -20,7 +20,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     ["link", { rel: "manifest", href: "/manifest.webmanifest" }],
     [
       "link",
-      { rel: "authorization_endpoint", href: "https://indielogin.com/auth" },
+      { rel: "authorization_endpoint", href: "https://indieauth.com/auth" },
     ],
     [
       "link",
