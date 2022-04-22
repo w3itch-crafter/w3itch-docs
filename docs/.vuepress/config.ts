@@ -22,6 +22,10 @@ export default defineUserConfig<DefaultThemeOptions>({
       "link",
       { rel: "authorization_endpoint", href: "https://indielogin.com/auth" },
     ],
+    [
+      "link",
+      { rel: "token_endpoint", href: "https://tokens.indieauth.com/token" },
+    ],
 
     ["link", { rel: "me", href: "https://twitter.com/w3itchio" }],
     ["link", { rel: "me", href: "https://github.com/w3itch" }],
