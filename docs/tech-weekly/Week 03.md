@@ -1,7 +1,10 @@
 ---
 tags: Tech Weekly
 ---
-# Week 3 - April 8, 2022
+# Week 3 - April 15, 2022
+
+[![hackmd-github-sync-badge](https://hackmd.io/-lUIH2bGQ9KQKWk_miyPwA/badge)](https://hackmd.io/-lUIH2bGQ9KQKWk_miyPwA)
+
 
 Hold token to play games.
 
