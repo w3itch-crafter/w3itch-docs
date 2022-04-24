@@ -3,6 +3,9 @@ tags: Tech Weekly
 ---
 # Week 4 April 22, 2022
 
+[W3itch Weekly Telegraph Ep.1 —— Beginning](https://blog.w3itch.io/2022/04/22/W3itch-Weekly-Telegraph-Ep-1-%E2%80%94%E2%80%94-Beginning/)
+
+Please feel FREE to subscribe to our [Blog](https://blog.w3itch.io) using any FREE RSS Feed Reader!
 
 ## What we are working on
 
@@ -10,7 +13,7 @@ tags: Tech Weekly
   - [Twitter](https://twitter.com/w3itchio)
   - [Discord](https://discord.gg/9eytfsyKPG)
   - IndieWebify
-    - [twitter link with RelMeAuth  / w3itch-frontend#83](https://github.com/w3itch-crafter/w3itch-frontend/issues/83)
+    - [Twitter link with RelMeAuth  / w3itch-frontend#83](https://github.com/w3itch-crafter/w3itch-frontend/issues/83)
       - [What's RelMeAuth](https://indieweb.org/RelMeAuth)
     - [Set up for IndieLogin.com / w3itch-frontend#84](https://github.com/w3itch-crafter/w3itch-frontend/issues/84) 
 - Register & Login
