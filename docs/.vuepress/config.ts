@@ -82,7 +82,7 @@ export default defineUserConfig<DefaultThemeOptions>({
           children: ["/documentation/front-end_development.md", "/documentation/front-end_architecture.md"],
         },
         {
-          text: "Backend development",
+          text: "Back-end development",
           collapsible: true,
           link: "/documentation/back-end_development.md",
           children: ["/documentation/back-end_development.md"],
