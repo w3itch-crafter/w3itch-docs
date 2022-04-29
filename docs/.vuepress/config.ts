@@ -8,7 +8,7 @@ const contributingSidebar = [
     text: "Contributing",
     collapsible: true,
     link: "/CONTRIBUTING.md",
-    children: ["/CODE_OF_CONDUCT.md", "/PULL_REQUEST_TEMPLATE.md"],
+    children: ["/CODE_OF_CONDUCT.md", "/PULL_REQUEST_TEMPLATE.md", "/developer.md"],
   },
 ];
 export default defineUserConfig<DefaultThemeOptions>({
@@ -26,7 +26,6 @@ export default defineUserConfig<DefaultThemeOptions>({
       "link",
       { rel: "token_endpoint", href: "https://tokens.indieauth.com/token" },
     ],
-
     ["link", { rel: "me", href: "https://twitter.com/w3itchio" }],
     ["link", { rel: "me", href: "https://github.com/w3itch" }],
     ["link", { rel: "pgpkey", href: "/key.txt" }],
@@ -67,6 +66,7 @@ export default defineUserConfig<DefaultThemeOptions>({
       "/CONTRIBUTING.html": contributingSidebar,
       "/CODE_OF_CONDUCT.html": contributingSidebar,
       "/PULL_REQUEST_TEMPLATE.html": contributingSidebar,
+      "/developer.html": contributingSidebar,
     },
   },
   markdown: {
