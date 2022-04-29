@@ -15,7 +15,7 @@
     "@vuepress/plugin-pwa-popup": "^2.0.0-beta.38",
     "@vuepress/plugin-search": "next",
     "@vuepress/plugin-shiki": "next",
-    "@vuepress/plugin-toc": "next",
+    "@vuepress/plugin-toc": "^2.0.0-beta.38",
     "vuepress": "next"
   },
   "dependencies": {
