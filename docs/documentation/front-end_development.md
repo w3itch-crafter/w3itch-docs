@@ -26,7 +26,7 @@ For more infomation, you can see Next.js [Environment Variables](https://nextjs.
 
 ```env
 # PUBLIC url
-NEXT_PUBLIC_URL=https://w3itch.io
+NEXT_PUBLIC_URL=https://test.w3itch.io
 # API URL
 NEXT_PUBLIC_API_URL=https://backend-api.testenv.w3itch.io
 
@@ -37,6 +37,8 @@ NEXT_PUBLIC_CHAIN_ID=1,3,4,5,42,56,97
 NEXT_PUBLIC_INFURA_API_KEY=
 NEXT_PUBLIC_INFURA_API_SECRET=
 ```
+
+For more infomation, you can see [infura](https://infura.io/).
 
 ## Dev server
 
