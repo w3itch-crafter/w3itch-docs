@@ -49,6 +49,10 @@ export default defineUserConfig<DefaultThemeOptions>({
         link: "/CONTRIBUTING.md",
       },
       {
+        text: "Blog",
+        link: "https://blog.w3itch.io",
+      },
+      {
         text: "GitHub",
         link: "https://github.com/w3itch-crafter",
       },
