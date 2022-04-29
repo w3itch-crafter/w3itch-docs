@@ -87,6 +87,12 @@ export default defineUserConfig<DefaultThemeOptions>({
           link: "/documentation/back-end_development.md",
           children: ["/documentation/back-end_development.md"],
         },
+        {
+          text: "How to",
+          collapsible: true,
+          link: "/documentation/howto.md",
+          children: ["/documentation/howto.md"],
+        },
       ],
       "/CODE_OF_CONDUCT.html": contributingSidebar,
       "/PULL_REQUEST_TEMPLATE.html": contributingSidebar,
