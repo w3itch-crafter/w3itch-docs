@@ -73,7 +73,7 @@ $ mysql -h 127.0.0.1 -P 3306 -u root
 
 Then you can create a user and a database for the backend. Below example creates a user and a database, both called `w3itch`:
 
-```bash
+```sql
 CREATE DATABASE w3itch;
 # replace `password` with your user password
 CREATE USER 'w3itch'@'localhost' IDENTIFIED BY 'password';
