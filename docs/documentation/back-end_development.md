@@ -11,8 +11,6 @@ The required programs are listed here. Please make sure each of the packages has
 - `loki` - logging service
 - `caddy` - reverse proxy web server for serving static files
 - `mysql` - database
-  > Unless for testing, we connect directly to a dedicated remote database for the production environment.  
-  > *So a local installation is not generally necessary if you're running in the production.*
 
 ```bash
 #!/bin/bash
@@ -45,7 +43,7 @@ curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/debian.deb.txt' | sudo 
 sudo apt update && sudo apt install -y caddy
 ```
 
-The above commands snippet doesn't include `loki`, `redis`, `nats`. This is because these can be installed with docker much easier.
+The above commands snippet doesn't include `loki` and `redis`. This is because these can be installed with docker much easier.
 
 The following commands are given to **install and start** these programs with docker.
 
@@ -60,14 +58,43 @@ sudo docker run -d --name loki -v $(pwd):/mnt/config -p 3100:3100 grafana/loki:2
 sudo wget https://raw.githubusercontent.com/grafana/loki/v2.4.2/clients/cmd/promtail/promtail-docker-config.yaml -O promtail-config. yaml
 sudo docker run -d -v $(pwd):/mnt/config -v /var/log:/var/log --link loki grafana/promtail:2.4.2 -config.file=/mnt/config/promtail-config. yaml
 
-# nats
-sudo docker run -dp 4222:4222 nats:latest
-
 # redis
 sudo docker run -dp 6379:6379 redis
+
+# mysql
+sudo docker run -itd --name mysql -p 3306:3306 mysql/mysql-server
 ```
 
-If the commands work, and you can make sure all the required programs are installed, you can start deploying the backend.
+Now you have to config your database. You can use below command in shell to connect to the mysql server.
+
+```bash
+$ mysql -h 127.0.0.1 -P 3306 -u root
+```
+
+Then you can create a user and a database for the backend. Below example creates a user and a database, both called `w3itch`:
+
+```bash
+CREATE DATABASE w3itch;
+# replace `password` with your user password
+CREATE USER 'w3itch'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON w3itch.* TO 'w3itch'@'localhost' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+EXIT;
+```
+
+And you can set them in your configuration file as follows (will be described in the "Modify the configurations" chapter):
+
+```yaml
+db:
+  host: 127.0.0.1
+  username: w3itch
+  password: password # change it to your user password
+  database: w3itch
+  charset: utf8mb4
+  timezone: 'Z' # UTC
+```
+
+If the commands work, and you can make sure all the required programs are installed/configured properly, you can start deploying the backend.
 
 ## Clone the repository
 
