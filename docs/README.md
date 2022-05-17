@@ -1,10 +1,17 @@
 # Introduction
 
+[![hackmd-github-sync-badge](https://hackmd.io/qFhaFu60T2i8nmI9nO6cNQ/badge)](https://hackmd.io/qFhaFu60T2i8nmI9nO6cNQ)
+
+
 [toc]
 
 ## What is w3itch.io?
 
 W3itch.io is a free as freedom open marketplace for independent game creators inspired by [itch](https://itch.io/) and [gitcoin](https://gitcoin.co/). It’s a community that enables anyone to sell the content they've created. As a seller you’re in charge of how it’s done: you set the price, you run sales, and you design your pages. Benefit from decentralized storage technology, it’s never necessary to get votes, likes, or follows to get your content approved, and you can make changes to how you distribute your work as frequently as you like. W3itch.io is also a collection of some of the most unique, interesting, and independent creations you'll find on the web. We're not your typical digital storefront, with a wide range of both paid and free content, we encourage you to look around and see what you find. Unlike itch, w3itch focus on putting status-of-quote web3 technology into production level services, that is, the community will be encouraged to use web3 technologies such as did, nft, decentralized storage, social token, direct cryptocurrency payment and etcs.
+
+![](https://i.imgur.com/qwHWXpx.png)
+
+
 
 ## For Creators
 
@@ -19,6 +26,8 @@ W3itch.io supports pre-orders, selling rewards, nft rewards, revenueing sharing 
 ## For Player
 
 ## Content Access Machanism
+
+
 
 ## Open Revenue Sharing Machanism
 
