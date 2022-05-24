@@ -36,9 +36,36 @@ NEXT_PUBLIC_CHAIN_ID=1,3,4,5,42,56,97
 # Your Infura api key
 NEXT_PUBLIC_INFURA_API_KEY=
 NEXT_PUBLIC_INFURA_API_SECRET=
+
+# Google Analytics
+NEXT_PUBLIC_GA_MEASUREMENT_ID=
+
+# Algolia
+NEXT_PUBLIC_ALGOLIA_INDEX=
+NEXT_PUBLIC_ALGOLIA_APP_ID=
+NEXT_PUBLIC_ALGOLIA_SEARCH_API_KEY=
+ALGOLIA_SEARCH_ADMIN_KEY=
 ```
 
-For more infomation, you can see [infura](https://infura.io/).
+**Required**
+
+> Run the dev and build commands, we will check if the environment variable exists
+
+- `NEXT_PUBLIC_URL`
+- `NEXT_PUBLIC_API_URL`
+- `NEXT_PUBLIC_CHAIN_ID`
+- `NEXT_PUBLIC_INFURA_API_KEY`
+
+**Optional**
+
+- `NEXT_PUBLIC_GA_MEASUREMENT_ID` If you need Google Analytics.
+- `NEXT_PUBLIC_ALGOLIA_*, ALGOLIA_*` If you need Algolia search, default is Google search.
+ 
+For more infomation, you can see
+
+- [infura](https://infura.io/).
+- [google analytics](https://analytics.google.com/).
+- [algolia](https://www.algolia.com/).
 
 ## Dev server
 
