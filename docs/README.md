@@ -12,6 +12,11 @@ W3itch.io is a free as freedom open marketplace for independent game creators in
 ![](https://i.imgur.com/qwHWXpx.png)
 
 
+## Supported Project Type
+- EasyRPG
+- Minetest
+- HTML5 Game
+- Downloadable content
 
 ## For Creators
 
@@ -24,6 +29,9 @@ Every creator is unique, so we support a wide range of methods to help them make
 W3itch.io supports pre-orders, selling rewards, nft rewards, revenueing sharing based on the creator's social token even doing crowdfunding with your social token as well. Details can be found in later chapters.
 
 ## For Player
+WIP
+
+
 
 ## Content Access Machanism
 
