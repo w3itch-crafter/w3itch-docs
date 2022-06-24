@@ -52,7 +52,7 @@ ALGOLIA_SEARCH_ADMIN_KEY=
 
 **Required**
 
-> Run the dev and build commands, we will check if the environment variable exists
+> Run the `dev` or `build` commands, we will check if the environment variable exists
 
 - `NEXT_PUBLIC_URL`
 - `NEXT_PUBLIC_API_URL`
