@@ -17,7 +17,6 @@ Please feel FREE to subscribe to our [Blog](https://blog.w3itch.io) using any FR
       - [What's RelMeAuth](https://indieweb.org/RelMeAuth)
     - [Set up for IndieLogin.com / w3itch-frontend#84](https://github.com/w3itch-crafter/w3itch-frontend/issues/84) 
 - Register & Login
-
   - Register & Login with GitHub
     - [API / w3itch-backend PR#10](https://github.com/w3itch-crafter/w3itch-backend/pull/10)
     - [Button / w3itch-frontend#80](https://github.com/w3itch-crafter/w3itch-frontend/issues/80)

@@ -9,10 +9,10 @@ We believe that scoring, tagging, and commenting may be completely different und
 
 1. Handle the charset of the game file
 2. Investigate alternatives to [RTP](https://easyrpg.org/rtp-replacement/).We do not provide official RTP even if there are resources that cannot be found
-3. Add Tag Intergation，including "Create new project" form & "Browse Game"
+3. Add Tag Integation，including "Create new project" form & "Browse Game"
 4. Add Rating API & Page
-5. Finish Disqus Intergration
-6. Start Uniswap Intergration
+5. Finish Disqus Integration
+6. Start Uniswap Integration
 7. Fix pagination problem
 8. Fix database migration problem
 9. Discuss whether ENS can be applied
@@ -21,5 +21,5 @@ We believe that scoring, tagging, and commenting may be completely different und
 
 ## Next
 
-1. Finish Uniswap Intergration
+1. Finish Uniswap Integration
 2. Game Pricing

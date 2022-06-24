@@ -16,7 +16,7 @@ Exploring web3 technologies in itch.io-like scenarios
 6. Browse Game
 7. Tag API
 8. User profile page
-9. Fleek Intergration
+9. Fleek Integration
 
 ### Why we built from scratch instead of on top of the GameJolt open source project 
 
@@ -26,6 +26,6 @@ We believe that the community is not the IM/channel/server itself. It is more in
 
 1. Handle the charset of the game file
 2. Investigate alternatives to [RTP](https://easyrpg.org/rtp-replacement/)
-3. Tag Intergation
+3. Tag Integation
 4. Rating API & Page
-5. Disqus Intergration
+5. Disqus Integration
