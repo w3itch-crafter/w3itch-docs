@@ -29,7 +29,10 @@ For more infomation, you can see Next.js [Environment Variables](https://nextjs.
 NEXT_PUBLIC_URL=https://test.w3itch.io
 # API URL
 NEXT_PUBLIC_API_URL=https://backend-api.testenv.w3itch.io
-
+# ADDRESS MINETEST
+NEXT_PUBLIC_ADDRESS_MINETEST_URL=api.w3itch.io
+# MINETEST PORT
+NEXT_PUBLIC_MINETEST_PORT=30000
 # Support multiple chain id, split by comma e.g: 1,4,56,97
 NEXT_PUBLIC_CHAIN_ID=1,3,4,5,42,56,97
 
@@ -53,6 +56,8 @@ ALGOLIA_SEARCH_ADMIN_KEY=
 
 - `NEXT_PUBLIC_URL`
 - `NEXT_PUBLIC_API_URL`
+- `NEXT_PUBLIC_ADDRESS_MINETEST_URL`
+- `NEXT_PUBLIC_MINETEST_PORT`
 - `NEXT_PUBLIC_CHAIN_ID`
 - `NEXT_PUBLIC_INFURA_API_KEY`
 
@@ -60,7 +65,7 @@ ALGOLIA_SEARCH_ADMIN_KEY=
 
 - `NEXT_PUBLIC_GA_MEASUREMENT_ID` If you need Google Analytics.
 - `NEXT_PUBLIC_ALGOLIA_*, ALGOLIA_*` If you need Algolia search, default is Google search.
- 
+
 For more infomation, you can see
 
 - [infura](https://infura.io/).
@@ -81,6 +86,17 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
+## Test
+
+- [next testing](https://nextjs.org/docs/testing)
+- [jest](https://jestjs.io/zh-Hans/)
+
+```bash
+yarn test
+
+yarn test:ci
+```
 
 ## Deploy on Vercel
 
