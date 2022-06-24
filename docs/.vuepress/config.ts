@@ -55,7 +55,7 @@ export default defineUserConfig<DefaultThemeOptions>({
       },
       {
         text: "Blog",
-        link: "https://blog.w3itch.io",
+        link: "/blog/",
       },
       {
         text: "GitHub",
