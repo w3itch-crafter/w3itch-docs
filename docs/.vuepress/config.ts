@@ -71,8 +71,14 @@ export default defineUserConfig<DefaultThemeOptions>({
           children: ["/README.md", "/faq.md", "/thanks.md", "/support.md"],
         },
       ],
-
-      "/tech-weekly/": getSidebar(path.join(__dirname, "..", "/tech-weekly")),
+      "/tech-weekly": [
+        {
+          text: "Tech Weekly",
+          collapsible: true,
+          link: "/tech-weekly/README.md",
+          children: ["/tech-weekly/README.md", "/tech-weekly/Q2.md", "/tech-weekly/Q3.md"],
+        },
+      ],
       "/blog/": getSidebar(path.join(__dirname, "..", "/blog")),
       "/CONTRIBUTING.html": contributingSidebar,
       "/documentation/":[
