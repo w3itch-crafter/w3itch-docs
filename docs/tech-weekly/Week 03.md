@@ -5,13 +5,12 @@ tags: Tech Weekly
 
 [![hackmd-github-sync-badge](https://hackmd.io/-lUIH2bGQ9KQKWk_miyPwA/badge)](https://hackmd.io/-lUIH2bGQ9KQKWk_miyPwA)
 
-
 Hold token to play games.
 
 ## What we are working on
 
-1. Finish Uniswap Intergration
-2. Finish Pancakeswap Intergration
+1. Finish Uniswap Integration
+2. Finish Pancakeswap Integration
 3. Game Pricing
 4. Global exception/error handing
 5. Edit & delete game project

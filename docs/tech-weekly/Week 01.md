@@ -26,6 +26,6 @@ We believe that the community is not the IM/channel/server itself. It is more in
 
 1. Handle the charset of the game file
 2. Investigate alternatives to [RTP](https://easyrpg.org/rtp-replacement/)
-3. Tag Integation
+3. Tag Integration
 4. Rating API & Page
 5. Disqus Integration
