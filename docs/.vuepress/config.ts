@@ -73,6 +73,7 @@ export default defineUserConfig<DefaultThemeOptions>({
       ],
 
       "/tech-weekly/": getSidebar(path.join(__dirname, "..", "/tech-weekly")),
+      "/blog/": getSidebar(path.join(__dirname, "..", "/blog")),
       "/CONTRIBUTING.html": contributingSidebar,
       "/documentation/":[
         {

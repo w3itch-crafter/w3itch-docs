@@ -1,10 +1,7 @@
-[![hackmd-github-sync-badge](https://hackmd.io/TlRuREANQPy4Vr1ywRCjYQ/badge)](https://hackmd.io/TlRuREANQPy4Vr1ywRCjYQ)
-
-
 ---
 tags: Tech Weekly
 ---
-# Week 9-10 June 4， 2022
+# Week 10 June 4, 2022
 
 
 ## What we are working on
