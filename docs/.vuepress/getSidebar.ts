@@ -33,6 +33,7 @@ const getSidebar = (basePath = path.join(__dirname, "..")) => {
       } else {
         sidebarChildren.push({
           text: path.parse(file).name,
+          collapsible: true,
           link: path.join(".", base, file),
         });
       }

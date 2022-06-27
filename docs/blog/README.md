@@ -1,3 +1,3 @@
-# Tech Weekly
+# Blog
 
-Presenting our development progress to the community.
+Discuss interesting idea with the community.
